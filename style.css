@@ -13,15 +13,15 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px; */
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 3rem;
-}
-
-section {
-  /*responsivt grid layout med whitespace ude til siderne, når browseren er større end 1200px*/
-  display: grid;
-  grid-template-columns: 16px auto minmax(0, 1200px) auto 16px;
 }
 
 /*navigation */
@@ -73,8 +73,47 @@ video {
   width: 100%;
 }
 
-/* section 1 */
+/* sectioner */
+
 .section_1 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  margin: 2rem;
 }
+<<<<<<< HEAD
+=======
+
+.section_2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  margin: 2rem;
+}
+
+.section_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  margin: 2rem;
+}
+
+.section_4 {
+  margin: 2rem;
+}
+
+.section_5 {
+  margin: 2rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  background-color: bisque;
+}
+
+footer div {
+  margin: 2rem;
+}
+>>>>>>> janne
