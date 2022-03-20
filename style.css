@@ -78,9 +78,3 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
-
-.section_1 img {
-}
-
-.section_1 article {
-}
