@@ -1,0 +1,86 @@
+/* basics/ overordnet*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+}
+
+section {
+  /*responsivt grid layout med whitespace ude til siderne, når browseren er større end 1200px*/
+  display: grid;
+  grid-template-columns: 16px auto minmax(0, 1200px) auto 16px;
+}
+
+/*navigation */
+
+header nav ul {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+header ul li {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: wheat;
+  opacity: 80%;
+  display: flex;
+  justify-content: end;
+}
+
+.nav_links {
+  gap: 10px;
+  list-style: none;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nav_links:hover {
+  color: black;
+}
+
+/* splash section */
+
+video {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.tekst {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  color: #f1f1f1;
+  width: 100%;
+}
+
+/* section 1 */
+.section_1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+.section_1 img {
+}
+
+.section_1 article {
+}
