@@ -19,6 +19,35 @@ section {
   gap: 30px; */
 }
 
+h1 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10rem;
+}
+
+h2 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  font-family: termina, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+p {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 3rem;
@@ -67,8 +96,8 @@ video {
 }
 .tekst {
   position: absolute;
-  bottom: 50%;
-  left: 50%;
+  bottom: 30px;
+  left: 500px;
   color: #f1f1f1;
   width: 100%;
 }
@@ -79,5 +108,61 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 30px;
-  margin: 2rem;
+  margin: 4rem;
 }
+<<<<<<< HEAD
+=======
+
+.section_2 {
+  margin: 4rem;
+}
+
+.section_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  margin: 4rem;
+}
+
+.divknap {
+  display: flex;
+  justify-content: center;
+}
+
+.knap {
+  font-family: termina, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  width: 30%;
+  min-width: 100px;
+  border-radius: 12px;
+  border: 2px solid rgb(19, 95, 12);
+  background-color: white;
+  color: rgb(19, 95, 12);
+}
+.knap:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.section_4 {
+  margin: 4rem;
+}
+
+.section_5 {
+  margin: 4rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 30px;
+  background-color: bisque;
+}
+
+footer div {
+  margin: 4rem;
+}
+>>>>>>> janne
