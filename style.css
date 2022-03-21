@@ -33,12 +33,14 @@ h2 {
   font-size: 4rem;
   display: flex;
   justify-content: center;
+  color: #2237c3;
 }
 h3 {
   font-family: termina, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 4rem;
+  color: #2237c3;
 }
 
 p {
@@ -102,8 +104,9 @@ header {
 }
 .tekst {
   position: absolute;
-  bottom: 30px;
-  left: 500px;
+  bottom: 220px;
+  /* left: 500px; */
+  text-align: center;
   color: #f1f1f1;
   width: 100%;
 }
@@ -112,7 +115,7 @@ header {
 
 .section_1 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 30px;
   margin: 4rem;
 }
@@ -127,7 +130,7 @@ header {
 
 .section_3 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 30px;
   margin: 4rem;
 }
@@ -165,7 +168,7 @@ header {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 30px;
   background-color: bisque;
 }
