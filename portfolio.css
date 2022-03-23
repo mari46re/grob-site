@@ -35,8 +35,10 @@ h3 {
   font-family: termina, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #2237c3;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -69,10 +71,19 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: wheat;
+
   opacity: 80%;
   display: flex;
   justify-content: end;
+}
+a {
+  color: rgb(253, 242, 83);
+  text-shadow: 2px 2px #2237c3;
+  margin-right: 1rem;
+}
+
+a:hover {
+  color: #fede6a;
 }
 
 .nav_links {
@@ -95,6 +106,30 @@ section {
   margin: 1.5rem;
 }
 
+.youtube {
+  margin: 2rem auto;
+  max-width: 70%;
+  width: 100%;
+  margin: 0 auto;
+  place-content: center;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  padding-block: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.instagram video {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.instagram {
+  display: grid;
+  justify-items: center;
+}
 @media (min-width: 600px) {
   .section_1 {
     margin: 10rem;
