@@ -12,11 +12,17 @@ img {
 body {
   overflow-x: hidden;
 }
+
+.tekst {
+  padding: 2rem;
+  border: 1px solid #fede6a;
+}
 h1 {
   font-family: rift, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 6rem;
+  font-size: 9rem;
+  text-shadow: 6px 6px #2237c3;
 
   display: flex;
   justify-content: center;
