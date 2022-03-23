@@ -111,8 +111,8 @@ h3 {
   font-family: termina, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 4rem;
-  color: #2237c3;
+  font-size: 2rem;
+  color: #a3e7fe;
 }
 
 p,
@@ -414,5 +414,11 @@ footer div {
 
   .instagram {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .section_4 p,
+  .section_5 p {
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }
