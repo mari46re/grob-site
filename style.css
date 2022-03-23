@@ -284,30 +284,37 @@ footer div {
   aspect-ratio: 1/1;
 }
 .social_media {
-  width: 10%;
   display: flex;
   gap: 2rem;
   z-index: 5;
+  margin: 1rem;
+  /* position: relative; */
+  justify-content: space-evenly;
 }
 
 .SoMeLinks {
-  width: 10%;
-  height: 10%;
+  max-height: 45px;
+  /* height: 10%; */
   position: absolute;
 }
 
 .SoMeLinks1 {
-  width: 15%;
-  height: 15%;
+  max-height: 45px;
+  /* height: 15%;*/
   position: absolute;
-  top: 900px;
+  /* top: 900px; */
+  /* left: 500px; */
 }
 
 .SoMeLinks2 {
-  width: 10%;
-  height: 10%;
+  max-height: 45px;
+  /* height: 10%; */
   position: absolute;
 }
+
+/* .SVG-er {
+  position: relative;
+} */
 @media (max-width: 720px) {
   h1 {
     font-size: 7rem;
