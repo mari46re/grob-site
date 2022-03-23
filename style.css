@@ -405,6 +405,10 @@ footer div {
     margin: 1rem;
   }
 
+  .section_1 p {
+    margin: 2rem;
+  }
+
   .app img {
     width: 70%;
   }
